@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <!-- Bootstrap start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap end -->
+
+
+
+    <!-- Font Awesome cdn Start-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome cdn end -->
+
+
+
+    <!-- css file link Start-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- css file link End-->
+
+
+
+   <!-- Jquery file link Start-->
+   <script src="/Jquery/JQuery.js"></script>
+   <!-- Jquery file link End-->
+
+
+   
+
+    <title>Anupam Kher | Theater.com</title>
+</head>
+
+<body>
+    <!-- Jquery testing -->
+    <!-- <script>
+        $(document).ready(function () {
+            $(window).click(function () {
+                $("body").text("7000")
+            })
+        })
+    </script> -->
+    <header class="fixed-top-">
+        <div class="row m-0">
+            <div class="col-12 mx- d-lg-flex justify-content-center">
+                <img class="img-fluid w-25 " src="/img/Logo/Theater - logo - crop.png" alt="">
+                <a href="">
+
+
+                </a>
+                <a class="float-end  d-lg-none d-block" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"><i
+                        class="fa-solid fa-bars fa-2x float-end text-dark border border-dark p-2  "></i></a>
+
+                <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <img class="img-fluid w-50" src="/img/Logo/Theater - logo - crop.png" alt="">
+                        <button type="button" class="btn text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                                class="fa fa-close fa-1x"></i></button>
+                    </div>
+
+                    <div class="offcanvas-body bg-warning m- p-0">
+                        <ul id="" class="m-0 p-0">
+                            <li id="" class="px-4 py-2"><a id="" class="" href="/index.html">Home</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="" href="">Theater show</a></li>
+                            <li id="" class="px-4 py-2 active"><a id="" class="" href="">Artist Gallery</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="" href="">Magzines</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="" href="">Award Winning</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="" href="/Upcomming_Shows.html">Upcoming
+                                    Shows</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="" href="">Auditorium</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="" href="">Feedback & Queries</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mx-auto d-flex justify-content-center d-lg-flex d-md-none d-none  pt-3 sub-header">
+                <ul id="" class="d-flex">
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3 " href="/index.html">Home</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Theater show</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3 active" href="">Artist Gallery</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Magzines</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Award Winning</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="/Upcomming_Shows.html">Upcoming Shows</a>
+                    </li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Auditorium</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Feedback & Queries</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <!-- Breadcrumb -->
+            <div class="row py-3">
+                <div class="col-12">
+                    <a href="/index.html"><i class="fa-solid fa-house me-1 artist_gallery_pg_text_web_theme"></i></a>
+                    <a class="active" href="/index.html">Home</a>
+
+                    <a href=""><i class="fa-solid fa-chevron-right artist_gallery_pg_text_web_theme"></i></a>
+                    
+                    <a class="link-secondary" href="/Artist_Gallery.html">Artist Gallery</a>
+                    <a href=""><i class="fa-solid fa-chevron-right artist_gallery_pg_text_web_theme"></i></a>
+                    <a class="link-secondary text-dark" href="/Anupam_Kher - Artist_Gallery.html">Anupam Kher
+                    </a>
+                </div>
+                
+            </div>
+            <div class="row mx-5">
+                <div class="col-lg-4">
+                    <img class="img-fluid"
+                        src="https://img-static.popxo.com/app_photos/images/2726/original/Screen_Shot_2019-04-15_at_1.58.14_PM.png"
+                        alt="">
+                </div>
+                <div class="col-lg-8 mt-5">
+                    <h6 class="text-muted">
+                        <u>
+                            Actor Name:
+                        </u>
+                    </h6>
+                    <h3 style="line-height: 28px;" class="display-6 text-">
+
+                        ANUPAM KHER
+                    </h3>
+
+                    <hr>
+                    <div class="row mt-lg-3">
+                        <div class="col-lg-12">
+                            <h5>Details:</h5>
+                            <p style="text-align: justify;
+                            text-justify: inter-word;">Mumbai (English: /mʊmˈbaɪ/ (listen), Marathi: [ˈmumbəi]; also known as Bombay /bɒmˈbeɪ/—
+                                the
+                                official name until 1995) is the capital city of the Indian state of Maharashtra and the
+                                de
+                                facto financial centre of India. According to the United Nations, as of 2018,
+                                <br>
+                                <br>
+                                Mumbai is
+                                the
+                                second-most populous city in India after 
+                                
+                                Delhi and the eighth-most populous city in the
+                                world with a population of roughly 20 million (2 crore).[17] As per the Indian
+                                government
+                                population census of 2011, Mumbai was the most populous city in India with an estimated
+                                city
+                                proper population of 12.5 million (1.25 crore) living under the Brihanmumbai Municipal
+                                Corporation.[18] Mumbai is the centre of the Mumbai Metropolitan Region, the sixth most
+                                populous metropolitan area in the world with a population of over 23 million (2.3
+                                crore).[19] Mumbai lies on the Konkan coast on the west coast of India and has a deep
+                                natural harbour. In 2008, Mumbai was named an alpha world city.[20][21]
+                            </p>
+                            <!-- <div class="row">
+                                <div class="col-4">
+                                    <table class="table table-warning text-dark table-hover table-sm">
+
+                                        <tr class="text-dark">
+                                            <td>Date of Bitth:</td>
+                                            <td>2 - Feb - 2022</td>
+                                        </tr>
+                                        <tr class="text-dark">
+                                            <td>Date of Place:</td>
+                                            <td>2 - Feb - 2022</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <table class="table table-danger text-dark table-hover table-sm">
+
+                                        <tr class="text-dark">
+                                            <td>Starting of Carier:</td>
+                                            <td>2-Feb-2022</td>
+                                        </tr>
+                                        <tr class="text-dark">
+                                            <td>Lanuuage:</td>
+                                            <td>2 - Feb - 2022</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="col-4">
+                                    <table class="table table-primary text-dark table-hover table-sm">
+
+                                        <tr class="text-dark">
+                                            <td>Hit Performance:</td>
+                                            <td>2 - Feb - 2022</td>
+                                        </tr>                                      
+                                    </table>
+                                </div>
+                            </div> -->
+
+
+
+                        </div>
+                        <div class="row p-0 m-0">
+                            <div class="col-lg-4 ">
+                                <p class="text-start text-end- w-75 mt-1 py-1 px-2 bg- p-0 m-0 bg-secondary">
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star-half text-warning pe- border-end border-dark"></i>
+                                    <span class="text-light">3.5</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 mb-5">
+
+                                <a class="btn btn-primary d-flex w- float-end"
+                                    href="https://en.wikipedia.org/wiki/Anupam_Kher">For More details</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row mt-5">
+                    <!-- Reviews Section in Artist_Gallery_sub_page -->
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <h4>Reviews</h4>
+                            </div>
+                            <hr>
+                            <style>
+                                .Reviews_Artist_Gallery_sub_page {
+                                    height: 40vh;
+                                    overflow-y: scroll;
+                                }
+
+                                ::-webkit-scrollbar {
+                                    background: white;
+                                }
+
+                                ::-webkit-scrollbar-thumb {
+                                    background: rgb(123, 123, 123);
+                                }
+                            </style>
+                            <div class="container-fluid  Reviews_Artist_Gallery_sub_page">
+
+                                <div class="row mt-2">
+                                    <div  id="feedback_artist_area" class="col-lg-12">
+                                        <div class="row">
+                                            <div class="col-2">
+
+                                                <img class="img-fluid rounded-pill"
+                                                    src="https://cdn-agekd.nitrocdn.com/AORzPGZUXpHbzmGEVKTcNoXbmxeWdHNp/assets/static/optimized/rev-135707b/files/Eric-B-e1482945131614.jpg"
+                                                    alt="">
+                                            </div>
+                                            <h6>Aaron Miller
+                                            </h6>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="bg-secondary rounded p-2 m-0 mb-1 text-light">We re-did
+                                                        our
+                                                        website
+                                                        twice
+                                                        in a 12 month period. There was no comparison between
+                                                        the
+                                                        first company and Thrive. Professional, Creative, Attentive to
+                                                        Detail,
+                                                        Excellent
+                                                        Communication…If I had contracted with Thrive the first time I
+                                                        would
+                                                        not
+                                                        have
+                                                        had to do
+                                                        it twice.</p>
+                                                        <!-- <i class="fa fa-user fa-2x text-muted border rounded-pill border-secondary p-3"></i> -->
+                                                    <div class="text-end me-1">
+                                                        <i class="fa fa-heart text-danger"></i>
+                                                        <i class="fa-solid fa-thumbs-up text-primary"></i>
+                                                        <span class="h6">
+
+                                                            85
+                                                        </span>
+                                                    </div>
+                                                    <hr>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2">
+
+                                                <img class="img-fluid rounded-pill"
+                                                    src="https://cdn-agekd.nitrocdn.com/AORzPGZUXpHbzmGEVKTcNoXbmxeWdHNp/assets/static/optimized/rev-135707b/files/tony-1.jpg"
+                                                    alt="">
+                                            </div>
+                                            <h6>Aaron Miller
+                                            </h6>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="bg-secondary rounded p-2 m-0 mb-1 text-light">We re-did
+                                                        our
+                                                        website
+                                                        twice
+                                                        in a 12 month period. There was no comparison between
+                                                        the
+                                                        first company and Thrive. Professional, Creative, Attentive to
+                                                        Detail,
+                                                        Excellent
+                                                        Communication…If I had contracted with Thrive the first time I
+                                                        would
+                                                        not
+                                                        have
+                                                        had to do
+                                                        it twice.</p>
+                                                    <div class="text-end me-1">
+
+                                                        <i class="fa fa-heart text-danger"></i>
+                                                        <!-- <i class="fa-solid fa-face-smile text-seondary"></i> -->
+                                                        <i class="fa-solid fa-thumbs-up text-primary"></i>
+                                                        <span class="h6">
+
+                                                            85
+                                                        </span>
+                                                    </div>
+                                                    <hr>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2">
+
+                                                <img class="img-fluid rounded-pill"
+                                                    src="https://cdn-agekd.nitrocdn.com/AORzPGZUXpHbzmGEVKTcNoXbmxeWdHNp/assets/static/optimized/rev-135707b/files/Libby-B-e1482945451217.jpg"
+                                                    alt="">
+                                            </div>
+                                            <h6>Aaron Miller
+                                            </h6>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p class="bg-secondary rounded p-2 m-0 mb-1 text-light">We re-did
+                                                        our
+                                                        website
+                                                        twice
+                                                        in a 12 month period. There was no comparison between
+                                                        the
+                                                        first company and Thrive. Professional, Creative, Attentive to
+                                                        Detail,
+                                                        Excellent
+                                                        Communication…If I had contracted with Thrive the first time I
+                                                        would
+                                                        not
+                                                        have
+                                                        had to do
+                                                        it twice.</p>
+                                                    <div class="text-end me-1">
+
+                                                        <i class="fa fa-heart text-danger"></i>
+                                                        <!-- <i class="fa-solid fa-face-smile text-seondary"></i> -->
+                                                        <i class="fa-solid fa-thumbs-up text-primary"></i>
+                                                        <span class="h6">
+
+                                                            85
+                                                        </span>
+                                                    </div>
+                                                    <hr>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-lg-0 mt-5">
+                        <div class="row">
+                            <div class="col-12 border-secondary">
+                                <h4>Give your Feedback here</h4>
+                            </div>
+                            <hr class="">
+                            <div class="row">
+
+                                <div class="col-lg-6">
+                                    <label for="">Name:</label>
+                                    <input id="input_name_Feedback_artist" class="form-control" type="text" placeholder="Enter your Name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="">Email:</label>
+                                    <input id="input_email_Feedback_artist" class="form-control" type="email" placeholder="Enter your email">
+                                </div>
+                                <div class="col-lg-12 mt-3">
+                                    <label for="">Comments:</label>
+                                    <textarea  id="input_Comments_Feedback_artist" class="form-control" name="" id="" cols="30" rows="5"></textarea>
+                                </div>
+                                <div class="col-lg-12 my-4">
+                                    <button id="btn_Feedback_artist" class="btn btn-danger float-end" type="submit">Send</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <span id="span1">dfd</span>
+    <span id="span2">dfd</span>
+    <span id="span3">dfd</span> -->
+    <footer>
+        <div class="container-fluid bg-red-footer">
+            <div class="d-flex justify-content-center">
+                <div class="row container ">
+                    <div class="col-lg-4 col-12 text-lg-start-text-center">
+                        <h3 id="" class="my-3 footer-portion-heading">Pages</h3>
+                        <ul>
+                            <li><a id="" class="" href="#"> Home</a></li>
+                            <li><a id="" class="" href="#"> Theater show</a></li>
+                            <li><a id="" class="" href="#"> Artist Gallery</a></li>
+                            <li><a id="" class="" href="#"> Magzines</a></li>
+                            <li><a id="" class="" href="#"> Award Winning</a></li>
+                            <li><a id="" class="" href="#"> Upcoming Shows</a></li>
+                            <li><a id="" class="" href="#"> Auditorium</a></li>
+                            <li><a id="" class="" href="#"> Feedback & Queries</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-12 text-lg-start-text-center">
+                        <h3 id="" class="my-3 footer-portion-heading">We are availbles</h3>
+                        <ul>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <td>Mon - Fri:</td>
+                                        <td>9:00am to 5:00pm</td>
+                                    </tr>
+                                    <!-- <tr>
+                                        <td>Tuesday:</td>
+                                        <td>9:00am to 5:00pm</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Wednesday:</td>
+                                        <td>9:00am to 5:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Thursday:</td>
+                                        <td>9:00am to 5:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Friday:</td>
+                                        <td>9:00am to 5:00pm</td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>Sat:</td>
+                                        <td>9:00am to 1:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sun:</td>
+                                        <td>off </td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                        <div class="row mt-5">
+                            <div class="col-lg-8">
+
+                                <h6 class="mb-3">Enter your email for more updates:</h6>
+
+
+                                <div class="input-group">
+                                    <input id="" class="form-control w-50" type="text" name=""
+                                        placeholder="Enter your email">
+                                    <button id="" class="btn btn-warning">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-12 text-lg-start-text-center">
+                        <h3 id="" class="my-3 footer-portion-heading">Get in Touch</h3>
+
+                        <ul>
+
+                            <li id="" class="mt-3">
+                                <a href="#">
+                                    <i class="fa fa-envelope"></i>
+                                    info@theater.com
+                                </a>
+                            </li>
+                            <li id="" class="mt-3">
+                                <a href="#">
+                                    <i class="fa fa-mobile"></i>
+                                    +92 321 277 8428
+                                </a>
+                            </li>
+                            <li id="" class="mt-3">
+                                <a href="#">
+                                    <i class="fa fa-location"></i>
+                                    A-875, Street no. 18,
+                                    <br>
+
+                                    Lucknow Cooperative Housing Society,
+                                    <br>
+                                    Korangi,74900, Karachi, Sindhi, Pakistan.
+                                </a>
+                            </li>
+                            <!-- Social Media in footer -->
+                            <li id="" class="mt-3 mb-4">
+                                <h6 class="mb-3">Follow us on social media:</h6>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook fa-2x ps-3"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram fa-2x ps-3"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube fa-2x ps-3"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa-brands fa-pinterest fa-2x ps-3"></i>
+                                </a>
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+
+            <div class="container-fluid bg-red-sub-footer ">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-1">
+
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-12  text-lg-start-text-center bg-  sub-footer-content">
+                            <div class="row">
+                                <div class="col-8 ">
+                                    <img id="" class="img-fluid d-flex justify-content-center ms-5 float-end"
+                                        src="/img/Logo/Theater - logo - footer.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-6 col-12    text-lg-start-text-center         d-flex justify-content-start align-items-center sub-footer-content">
+                            <a class="sub-footer-content">Theater @ All Copy right received</a>
+                        </div>
+                        <div
+                            class="col-lg-3 col-md-6 col-12      text-lg-start-text-center         d-flex justify-content-center align-items-center sub-footer-content">
+                            <a class="sub-footer-content">Developed by: Ash Group</a>
+                        </div>
+                        <div class="col-3"></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $("#btn_Feedback_artist").click(function () {
+                
+                var input_name = $("#input_name_Feedback_artist").val()
+                var input_email = $("#input_email_Feedback_artist").val()
+                var input_comment = $("#input_Comments_Feedback_artist").val()
+                // $("#span1").text(input_name)
+                // $("#span2").text(input_email)
+                // $("#span3").text(input_comment)
+                // $("#feedback_artist_area").html('<h1>hello</h1>')
+                $("#feedback_artist_area").prepend('<div class="col-2"><i class="fa fa-user fa-2x text-muted border rounded-pill border-secondary p-3"></i></div><h6>'+ input_name+'</h6><div class="row"><div class="col-12"><p class="bg-secondary rounded p-2 m-0 mb-1 text-light">'+ input_comment + '</p><div class="text-end me-1"><i class="fa fa-heart text-secondary"></i><i class="fa-solid ms-1 fa-thumbs-up text-secondary"></i><span class="h6"> 0 </span></div><hr>')            
+                $("#input_name_Feedback_artist").val("")
+                $("#input_email_Feedback_artist").val("")
+                $("#input_Comments_Feedback_artist").val("")
+            })
+        })
+    </script>
+</body>
+
+</html>
