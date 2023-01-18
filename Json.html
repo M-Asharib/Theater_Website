@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json | </title>
+    <script src="/Jquery/JQuery.js"></script>
+</head>
+
+<body>
+    <!-- Header Start -->
+    <div class="Nav_link_1_json_data"></div>
+    <div class="Nav_link_2_json_data"></div>
+    <div class="Nav_link_3_json_data"></div>
+    <div class="Nav_link_4_json_data"></div>
+    <div class="Nav_link_5_json_data"></div>
+    <div class="Nav_link_6_json_data"></div>
+    <div class="Nav_link_7_json_data"></div>
+    <div class="Nav_link_8_json_data"></div>
+    <!-- Header End -->
+    
+    
+    <!-- Footer Start -->
+    <div class="footer_heading_1"></div>
+    <div class="footer_heading_2"></div>
+    <div class="footer_heading_3"></div>
+    
+    <div class="email"></div>
+    <div class="phone"></div>
+    <div class="address"></div>
+    
+    <div class="timming_row_1"></div>
+    <div class="timming_row_2"></div>
+    <div class="timming_row_3"></div>
+    <!-- Footer End -->
+
+    
+    <script>
+        $(document).ready(function () {
+            // Creating a Json object 
+            // Book: Bootstrap & Jquery
+            // pg # 58
+            var header = {
+                "Nav_link_1": "Home",
+                "Nav_link_2": "Theater show",
+                "Nav_link_3": "Artist Gallery",
+                "Nav_link_4": "Magzine",
+                "Nav_link_5": "Award Winning",
+                "Nav_link_6": "Upcomming show",
+                "Nav_link_7": "Auditorium",
+                "Nav_link_8": "Feedback & Queries",
+                "logo": "img\Dom the play.png",
+            }
+
+
+            // Footer Start
+            var footer_header = {
+                "footer_heading_1": "Pages",
+                "footer_heading_2": "We are avalibles",
+                "footer_heading_3": "Get in touch",
+
+            }
+            var footer = {
+                "email": "info@theater.com",
+                "phone": "+92 321 277 8428",
+                "address": "A-875, Street no. 18Lucknow Cooperative Housing Society Korangi,74900, Karachi, Sindhi, Pakistan.",
+
+
+
+                "timming_row_1": "Mon - Fri:	9:00am to 5:00pm",
+                "timming_row_2": "Sat: 9: 00am to 1: 00pm",
+                "timming_row_3": "Sun: off",
+                // Email subscription form header text
+                "footer_email_subscription_form_header_text": "Enter your email for more updates:",
+            }
+            // Footer end
+
+
+            // Header printing Start
+            $(".Nav_link_1_json_data").html(header.Nav_link_1)
+            $(".Nav_link_2_json_data").html(header.Nav_link_2)
+            $(".Nav_link_3_json_data").html(header.Nav_link_3)
+            $(".Nav_link_4_json_data").html(header.Nav_link_4)
+            $(".Nav_link_5_json_data").html(header.Nav_link_5)
+            $(".Nav_link_6_json_data").html(header.Nav_link_6)
+            $(".Nav_link_7_json_data").html(header.Nav_link_7)
+            $(".Nav_link_8_json_data").html(header.Nav_link_8)
+            // Header printing End
+            
+            
+            // Footer printing Start
+            $(".footer_heading_1").html(footer_header.footer_heading_1)
+            $(".footer_heading_2").html(footer_header.footer_heading_2)
+            $(".footer_heading_3").html(footer_header.footer_heading_3)
+
+            $(".timming_row_1").html(footer.timming_row_1)
+            $(".timming_row_2").html(footer.timming_row_2)
+            $(".timming_row_3").html(footer.timming_row_3)
+
+            $(".email").html(footer.email)
+            $(".phone").html(footer.phone)
+            $(".address").html(footer.address)
+            // Footer printing End
+
+        })
+    </script>
+</body>
+
+</html>

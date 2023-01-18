@@ -54,6 +54,9 @@ body {
 /*  */
 /* Header Start */
 header {
+    position: sticky;
+    top: 0;
+    z-index: 15;
     background-color: black;
 }
 
@@ -85,7 +88,7 @@ header ul li .active {
 
 /* Header Offcanvas Start */
 .offcanvas-body ul li a {
-    color: #000;
+    /* color: #000; */
 }
 
 .offcanvas-body ul li:hover {
@@ -99,7 +102,7 @@ header ul li .active {
 }
 
 .offcanvas-body ul .active {
-    background-color: whitesmoke;
+    background-color: rgb(74, 74, 74);
 
 }
 
@@ -229,13 +232,13 @@ a {
 
 .card_Theater_show {
     transition: 0.5s;
-    /* background: #000; */
+    background: #000;
 }
 
 .card_Theater_show:hover {
     /* transform: 0.5s; */
     /* border: 1px solid black; */
-    background: rgb(0, 0, 0);
+    /* background: rgb(0, 0, 0); */
     box-shadow: 0px 0px 20px 1px black;
     transform: scale(1.05);
 }

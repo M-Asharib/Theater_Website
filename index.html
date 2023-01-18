@@ -174,36 +174,106 @@
                         <button type="button" class="btn text-light" data-bs-dismiss="offcanvas" aria-label="Close"><i
                                 class="fa fa-close fa-1x"></i></button>
                     </div>
+                    <script>
+                        $(document).ready(function () {
+                            // Creating a Json object 
+                            // Book: Bootstrap & Jquery
+                            // pg # 58
+                            var header = {
+                                "Nav_link_1_offcanvas": 'Home',
+                                "Nav_link_1": '<i class="fa fa-home"></i>',
+                                "Nav_link_2": "Theater show",
+                                "Nav_link_3": "Artist Gallery",
+                                "Nav_link_4": "Magzine",
+                                "Nav_link_5": "Award Winning",
+                                "Nav_link_6": "Auditorium",
+                                "Nav_link_7": "",
+                                "Nav_link_8": "Upcomming show",
+                                // "logo": "img\Dom the play.png",
+                            }
+                
+                
+                            // Footer Start
+                            var footer_header = {
+                                "footer_heading_1": "Pages",
+                                "footer_heading_2": "We are avalibles",
+                                "footer_heading_3": "Get in touch",
+                
+                            }
+                            // var footer = {
+                            //     "email": "info@theater.com",
+                            //     "phone": "+92 321 277 8428",
+                            //     "address": "A-875, Street no. 18Lucknow Cooperative Housing Society Korangi,74900, Karachi, Sindhi, Pakistan.",
+                
+                
+                
+                            //     "timming_row_1": "Mon - Fri:	9:00am to 5:00pm",
+                            //     "timming_row_2": "Sat: 9: 00am to 1: 00pm",
+                            //     "timming_row_3": "Sun: off",
+                            //     // Email subscription form header text
+                            //     "footer_email_subscription_form_header_text": "Enter your email for more updates:",
+                            // }
+                            // Footer end
+                
+                
+                            // Header printing Start
+                            $(".Nav_link_1_offcanvas").html(header.Nav_link_1_offcanvas)
+                            $(".Nav_link_1_json_data").html(header.Nav_link_1)
+                            $(".Nav_link_2_json_data").html(header.Nav_link_2)
+                            $(".Nav_link_3_json_data").html(header.Nav_link_3)
+                            $(".Nav_link_4_json_data").html(header.Nav_link_4)
+                            $(".Nav_link_5_json_data").html(header.Nav_link_5)
+                            $(".Nav_link_6_json_data").html(header.Nav_link_6)
+                            $(".Nav_link_7_json_data").html(header.Nav_link_7)
+                            $(".Nav_link_8_json_data").html(header.Nav_link_8)
+                            // Header printing End
+                            
+                            
+                            // Footer printing Start
+                                // $(".footer_heading_1").html(footer_header.footer_heading_1)
+                                // $(".footer_heading_2").html(footer_header.footer_heading_2)
+                                // $(".footer_heading_3").html(footer_header.footer_heading_3)
+                    
+                                // $(".timming_row_1").html(footer.timming_row_1)
+                                // $(".timming_row_2").html(footer.timming_row_2)
+                                // $(".timming_row_3").html(footer.timming_row_3)
+                    
+                                // $(".email").html(footer.email)
+                                // $(".phone").html(footer.phone)
+                                // $(".address").html(footer.address)
+                            // Footer printing End
+                
+                        })
+                    </script>
 
-                    <div class="offcanvas-body bg-warning m- p-0">
+                    <div style="background-color: #711415;" class="offcanvas-body bg- m- p-0">
                         <ul id="" class="m-0 p-0">
-                            <li id="" class="px-4 py-2 active"><a id="" class="" href="/index.html">Home</a></li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="/Theater_show.html">Theater show</a>
+                            <li id="" class="px-4 py-2 active"><a id="" class=" Nav_link_1_offcanvas        " href="/index.html">Home</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="        Nav_link_2_json_data        " href="/Theater_show.html">heater show</a>
                             </li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="/Artist_Gallery.html">Artist Gallery</a>
+                            <li id="" class="px-4 py-2"><a id="" class="        Nav_link_3_json_data        " href="/Artist_Gallery.html">Artist Gallery</a>
                             </li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="">Magzines</a></li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="">Award Winning</a></li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="/Upcomming_Shows.html">Upcoming
-                                    Shows</a></li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="">Auditorium</a></li>
-                            <li id="" class="px-4 py-2"><a id="" class="" href="">Feedback & Queries</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="        Nav_link_4_json_data        " href="/Magzine.html">Magzines</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="        Nav_link_5_json_data        " href="/Award_Winning.html">Award Winning</a></li>
+                            <!-- <li id="" class="px-4 py-2"><a id="" class="" href="/Upcomming_Shows.html">Upcoming
+                                    Shows</a></li> -->
+                            <li id="" class="px-4 py-2"><a id="" class="        Nav_link_6_json_data        " href="/Audotiorium.html">Auditorium</a></li>
+                            <li id="" class="px-4 py-2"><a id="" class="        Nav_link_7_json_data        " href="/Feedback_Queries.html">Feedback & Queries</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="col-12 mx-auto d-lg-flex justify-content-center d-lg-flex d-md-none d-none  pt-3 sub-header border-bottom border-top">
                 <ul id="" class="d-flex">                   
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3 active" href="/index.html"><i class="fa fa-home"></i></a></li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="/Theater_show.html">Theater show</a></li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="/Artist_Gallery.html">Artist Gallery</a>
-                    </li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Magzine</a></li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Award Win</a></li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="/Upcomming_Shows.html">Upcoming Show</a>
-                    </li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Auditorium</a></li>
-                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3" href="">Feedback & Queries</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_1_json_data  active" href="/index.html"><i class="fa fa-home"></i></a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_2_json_data        " href="/Theater_show.html">Theater show</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_3_json_data        " href="/Artist_Gallery.html">Artist Gallery</a>
+                    </li> 
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_4_json_data        " href="/Magzine.html">Magzine</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_5_json_data        " href="/Award_Winning.html">Award Win</a></li>
+                    </li> 
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_6_json_data        " href="/Audotiorium.html">Auditorium</a></li>
+                    <li id="" class=""><a id="" class="px-lg-3 py-lg-3          Nav_link_7_json_data        " href="/Feedback_Queries.html">Feedback & Queries</a></li>
                 </ul>
             </div>
         </div>
@@ -236,6 +306,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="row">
+                        <!-- card slider -->
                         <!-- <div class="row slider container owl-carousel d-flex justify-content- mx-auto mt-">
                             <div class="col-11">
                                 <a style="margin-bottom: 0px;
@@ -623,6 +694,7 @@
                             <li><a id="" class="" href="#"> Feedback & Queries</a></li>
                         </ul>
                     </div>
+                    <hr class="my-4 d-lg-none d-block">
                     <div class="col-lg-4 col-12 text-lg-start-text-center">
                         <h3 id="" class="my-3 footer-portion-heading">We are availbles</h3>
                         <ul>
@@ -675,6 +747,7 @@
                         </div>
 
                     </div>
+                    <hr class="mt-5 mb-4 d-lg-none d-block">
                     <div class="col-lg-4 col-12 text-lg-start-text-center">
                         <h3 id="" class="my-3 footer-portion-heading">Get in Touch</h3>
 
@@ -718,8 +791,6 @@
                                 <a href="#">
                                     <i class="fa-brands fa-pinterest fa-2x ps-3"></i>
                                 </a>
-
-
                             </li>
                         </ul>
                     </div>
@@ -736,15 +807,15 @@
                         </div>
                         <div class="col-lg-3 col-md-12 col-12  text-lg-start-text-center bg-  sub-footer-content">
                             <div class="row">
-                                <div class="col-8 ">
+                                <div class="col--8 col-12 px-5 mx-">
                                     <img id="" class="img-fluid d-flex justify-content-center ms-5 float-end"
                                         src="/img/Logo/Theater - logo - footer.png" alt="">
                                 </div>
                             </div>
                         </div>
                         <div
-                            class="col-lg-4 col-md-6 col-12    text-lg-start-text-center         d-flex justify-content-start align-items-center sub-footer-content">
-                            <a class="sub-footer-content">Theater @ All Copy right received</a>
+                            class="col-lg-4 col-md-6 col-12    text-lg-start-text-center         d-flex justify-content-center align-items-center sub-footer-content">
+                            <a class="sub-footer-content text-center">Theater @ All Copy right received</a>
                         </div>
                         <div
                             class="col-lg-3 col-md-6 col-12      text-lg-start-text-center         d-flex justify-content-center align-items-center sub-footer-content">
@@ -754,6 +825,15 @@
                     </div>
                 </div>
             </div>
+            <!-- <div class="row">
+                <div class="col-3">
+                    <img class="img-fluid" src="/img/Logo/Theater - logo - footer.png" alt="">
+                </div>
+                <div class="col-6"><div
+                    class="text-lg-start-text-center         d-flex justify-content-start align-items-center sub-footer-content">
+                    <a class="sub-footer-content">Theater @ All Copy right received</a>
+                </div></div>
+            </div> -->
         </footer>
         <!-- <audio autoplay src="/audio/Welcomming.mp3"></audio>
         <audio autoplay loop src="/audio/Calm-and-Peaceful.mp3"></audio> -->

@@ -1,0 +1,282 @@
+body {
+    background-color: #D4D4D4;
+    /* background: linear-gradient(rgba(255, 0, 0, 0.162), rgba(128, 0, 128, 0.495),rgba(255, 166, 0, 0.4), rgba(0, 128, 0, 0.358)); */
+
+}
+
+/* Home page body animation */
+.index-body {
+    animation: example 5s linear 2s infinite alternate;
+
+}
+
+/* Body animation */
+@keyframes example {
+    0% {
+        background: linear-gradient(rgba(255, 0, 0, 0.162), rgba(255, 166, 0, 0.4), rgba(0, 128, 0, 0.358));
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        /* background-color: yellow; */
+        background-color: rgba(255, 255, 0, 0.1);
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: rgba(0, 0, 255, 0.1);
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        /* background-color: green; */
+        background-color: rgba(0, 128, 0, 0.1);
+        /* background: linear-gradient(rgba(255, 0, 0, 0.162), rgba(128, 0, 128, 0.495), rgba(255, 166, 0, 0.4), rgba(0, 128, 0, 0.358)); */
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        /* background-color: red; */
+        background-color: rgba(255, 0, 0, 0.1);
+        /* background: linear-gradient(rgba(255, 0, 0, 0.162), rgba(128, 0, 128, 0.495), rgba(255, 166, 0, 0.4), rgba(0, 128, 0, 0.358)); */
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=Oswald:wght@200&family=Patrick+Hand&display=swap');
+
+
+/*  */
+/*  */
+/*  */
+/* Header Start */
+header {
+    background-color: black;
+}
+
+.sub-header {
+    background-color: rgba(225, 39, 42, 50%);
+
+
+}
+
+header ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header ul li a {
+    color: #EBEBEB;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: #272727;
+    background-color: rgba(39, 39, 39, 70%);
+}
+
+header ul li .active {
+    background-color: #272727;
+}
+
+/* Header Offcanvas Start */
+.offcanvas-body ul li a {
+    color: #000;
+}
+
+.offcanvas-body ul li:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.772);
+}
+
+.offcanvas-body ul li:hover a {
+    color: white;
+    /* background: #000; */
+}
+
+.offcanvas-body ul .active {
+    background-color: whitesmoke;
+
+}
+
+/* Header Offcanvas End */
+
+/* Header End */
+/*  */
+/*  */
+/*  */
+
+
+
+/*  */
+/*  */
+/*  */
+/* Footer Start */
+
+footer {
+    background: rgb(73, 73, 73);
+    background: rgb(0, 0, 0);
+    opacity: 0.9;
+}
+
+footer footer {
+    /* background: rgb(73, 73, 73); */
+    /* background: rgb(0, 0, 0); */
+    opacity: 0.9;
+}
+
+.bg-red-footer {
+    /* background-color: rgba(225, 39, 42, 50%); */
+    background-color: #282828;
+    color: #EBEBEB;
+}
+
+.bg-red-sub-footer {
+    background-color: rgba(225, 39, 42, 40%);
+}
+
+.bg-red-sub-footer a {
+    text-decoration: none;
+    color: #bb0000;
+}
+
+.bg-red-footer a {
+    text-decoration: none;
+    color: #ebebebd2;
+    font-weight: 100;
+}
+
+.footer-portion-heading {
+    color: #ebebebde;
+    font-weight: 400;
+
+}
+
+.bg-red-footer ul li {
+    list-style: none;
+
+}
+
+.bg-red-footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.bg-red-footer a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 150;
+
+}
+
+tr {
+    color: #EBEBEB;
+}
+
+tr:hover {
+    background: rgba(0, 0, 0, 25%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sub-footer-content {
+    font-weight: 500;
+}
+
+.sub-footer-content a {
+    font-weight: 500;
+    color: rgba(198, 198, 198, 0.528);
+}
+
+.sub-footer-content a:hover {
+    font-weight: 500;
+    color: rgb(220, 220, 220);
+}
+
+/* Footer End */
+/*  */
+/*  */
+/*  */
+
+
+
+
+
+
+/* Breadcrum Start */
+a {
+    text-decoration: none;
+    transition: 0.5s;
+    color: rgb(99, 99, 99);
+}
+
+.artist_gallery_pg_text_web_theme {
+    color: #9e2727;
+}
+
+.artist_gallery_pg_bg_web_theme {
+    background: #bb000099;
+    color: whitesmoke;
+}
+
+/* Breadcrum End */
+
+
+
+
+.card_Theater_show {
+    transition: 0.5s;
+    background: #000;
+}
+
+.card_Theater_show:hover {
+    /* transform: 0.5s; */
+    /* border: 1px solid black; */
+    background: rgb(0, 0, 0);
+    box-shadow: 0px 0px 20px 1px black;
+    transform: scale(1.05);
+}
+
+.btn {
+    /* transform: rotate(30deg); */
+    /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+
+    border: none;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+
+
+
+
+/* upcomming shows page start */
+
+.upcomming-pg-cards-main-text {
+    color: #d4d4d4c3;
+}
+
+.upcomming_page_cards {
+    transition: 0.5s;
+    /* box-shadow: 0px 0px 10px 10px whitesmoke; */
+}
+
+.upcomming_page_cards:hover {
+    box-shadow: 0px 0px 10px 1px black;
+    transform: scale(1.03);
+}
+
+/* upcomming shows page end */
