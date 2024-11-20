@@ -11,7 +11,7 @@ In this project, I apply the filterion with javascript, show the artist language
 
 ![App Screenshot](https://webberners.com/img/portfolio/w2%20(3).png)
 ![App Screenshot](https://webberners.com/img/portfolio/w2%20(4).png)
-![App Screenshot](https://webberners.com/img/portfolio/w2%20(4).png)
+![App Screenshot](https://webberners.com/img/portfolio/w2%20(5).png)
 
 
 ## 🛠 Skills
